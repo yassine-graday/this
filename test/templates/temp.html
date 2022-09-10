@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+    <style type="text/css">
+        body {
+            font-family: Calibri;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            margin: 0pt
+        }
+
+        li,
+        table {
+            margin-top: 0pt;
+            margin-bottom: 0pt
+        }
+
+        h1 {
+            margin-top: 20pt;
+            margin-bottom: 10pt;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+            font-family: Georgia;
+            font-size: 14pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #262626
+        }
+
+        h2 {
+            margin-bottom: 2pt;
+            font-size: 13pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #1d824c
+        }
+
+        h3 {
+            font-size: 11pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #595959
+        }
+
+        h4 {
+            margin-top: 2pt;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+            font-family: Georgia;
+            font-size: 11pt;
+            font-weight: normal;
+            font-style: italic;
+            color: #156138
+        }
+
+        h5 {
+            margin-top: 2pt;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+            font-family: Georgia;
+            font-size: 11pt;
+            font-weight: normal;
+            color: #156138
+        }
+
+        h6 {
+            margin-top: 2pt;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+            font-family: Georgia;
+            font-size: 11pt;
+            font-weight: normal;
+            color: #0e4025
+        }
+
+        .Heading7 {
+            margin-top: 2pt;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+            font-family: Georgia;
+            font-size: 11pt;
+            font-weight: normal;
+            font-style: italic;
+            color: #0e4025
+        }
+
+        .Heading8 {
+            margin-top: 2pt;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+            font-family: Georgia;
+            font-size: 11pt;
+            font-weight: bold;
+            color: #000000
+        }
+
+        .Heading9 {
+            margin-top: 2pt;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+            font-family: Georgia;
+            font-size: 11pt;
+            font-weight: bold;
+            font-style: italic;
+            color: #000000
+        }
+
+        .BalloonText {
+            font-family: 'Segoe UI';
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Bibliography {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .BlockText {
+            margin-right: 57.6pt;
+            margin-left: 57.6pt;
+            border: 0.75pt solid #1d824c;
+            padding: 10pt;
+            font-size: 11pt;
+            font-style: italic;
+            color: #1d824c
+        }
+
+        .BodyText {
+            margin-bottom: 6pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .BodyText2 {
+            margin-bottom: 6pt;
+            line-height: 200%;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .BodyText3 {
+            margin-bottom: 6pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .BodyTextFirstIndent {
+            margin-bottom: 8pt;
+            text-indent: 18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .BodyTextFirstIndent2 {
+            margin-left: 18pt;
+            margin-bottom: 8pt;
+            text-indent: 18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .BodyTextIndent {
+            margin-left: 18pt;
+            margin-bottom: 6pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .BodyTextIndent2 {
+            margin-left: 18pt;
+            margin-bottom: 6pt;
+            line-height: 200%;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .BodyTextIndent3 {
+            margin-left: 18pt;
+            margin-bottom: 6pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Caption {
+            margin-bottom: 10pt;
+            font-size: 11pt;
+            font-style: italic;
+            color: #161616
+        }
+
+        .Closing {
+            margin-left: 216pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .CommentSubject {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #595959
+        }
+
+        .CommentText {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ContactInfo {
+            text-align: center;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ContactInfoEmphasis {
+            text-align: center;
+            font-size: 11pt;
+            font-weight: bold;
+            color: #1d824c
+        }
+
+        .Date {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .DocumentMap {
+            font-family: 'Segoe UI';
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .E-mailSignature {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .EndnoteText {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .EnvelopeAddress {
+            margin-left: 144pt;
+            font-family: Georgia;
+            font-size: 12pt;
+            color: #595959
+        }
+
+        .EnvelopeReturn {
+            font-family: Georgia;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Footer {
+            text-align: center;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .FootnoteText {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .HTMLAddress {
+            font-size: 11pt;
+            font-style: italic;
+            color: #595959
+        }
+
+        .HTMLPreformatted {
+            font-family: Consolas;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Header {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Index1 {
+            margin-left: 11pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Index2 {
+            margin-left: 22pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Index3 {
+            margin-left: 33pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Index4 {
+            margin-left: 44pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Index5 {
+            margin-left: 55pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Index6 {
+            margin-left: 66pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Index7 {
+            margin-left: 77pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Index8 {
+            margin-left: 88pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Index9 {
+            margin-left: 99pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .IndexHeading {
+            font-family: Georgia;
+            font-size: 11pt;
+            font-weight: bold;
+            color: #595959
+        }
+
+        .IntenseQuote {
+            margin-top: 18pt;
+            margin-bottom: 18pt;
+            text-align: center;
+            border-top: 0.75pt solid #1d824c;
+            border-bottom: 0.75pt solid #1d824c;
+            padding-top: 10pt;
+            padding-bottom: 10pt;
+            font-size: 11pt;
+            font-style: italic;
+            color: #1d824c
+        }
+
+        .List {
+            margin-left: 18pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .List2 {
+            margin-left: 36pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .List3 {
+            margin-left: 54pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .List4 {
+            margin-left: 72pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .List5 {
+            margin-left: 90pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListBullet {
+            margin-left: 18pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListBullet3 {
+            margin-left: 54pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListBullet4 {
+            margin-left: 72pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListBullet5 {
+            margin-left: 90pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListContinue {
+            margin-left: 18pt;
+            margin-bottom: 6pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListContinue2 {
+            margin-left: 36pt;
+            margin-bottom: 6pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListContinue3 {
+            margin-left: 54pt;
+            margin-bottom: 6pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListContinue4 {
+            margin-left: 72pt;
+            margin-bottom: 6pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListContinue5 {
+            margin-left: 90pt;
+            margin-bottom: 6pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListNumber {
+            margin-left: 18pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListNumber2 {
+            margin-left: 36pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListNumber3 {
+            margin-left: 54pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListNumber4 {
+            margin-left: 72pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListNumber5 {
+            margin-left: 90pt;
+            text-indent: -18pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .ListParagraph {
+            margin-left: 36pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Macro {
+            margin-top: 4pt;
+            font-family: Consolas;
+            font-size: 11pt;
+            font-weight: bold;
+            color: #0e4125
+        }
+
+        .MessageHeader {
+            margin-left: 54pt;
+            text-indent: -54pt;
+            border: 0.75pt solid #000000;
+            padding: 1pt;
+            font-family: Georgia;
+            font-size: 12pt;
+            color: #595959;
+            background-color: #cccccc
+        }
+
+        .NoSpacing {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .NormalWeb {
+            font-family: 'Times New Roman';
+            font-size: 12pt;
+            color: #595959
+        }
+
+        .NormalIndent {
+            margin-left: 36pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .NoteHeading {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .PlainText {
+            font-family: Consolas;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Quote {
+            margin-top: 10pt;
+            text-align: center;
+            font-size: 11pt;
+            font-style: italic;
+            color: #404040
+        }
+
+        .Salutation {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Signature {
+            margin-left: 216pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Subtitle {
+            font-size: 11pt;
+            color: #5a5a5a
+        }
+
+        .TOAHeading {
+            margin-top: 6pt;
+            font-family: Georgia;
+            font-size: 12pt;
+            font-weight: bold;
+            color: #595959
+        }
+
+        .TOC1 {
+            margin-bottom: 5pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TOC2 {
+            margin-left: 11pt;
+            margin-bottom: 5pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TOC3 {
+            margin-left: 22pt;
+            margin-bottom: 5pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TOC4 {
+            margin-left: 33pt;
+            margin-bottom: 5pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TOC5 {
+            margin-left: 44pt;
+            margin-bottom: 5pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TOC6 {
+            margin-left: 55pt;
+            margin-bottom: 5pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TOC7 {
+            margin-left: 66pt;
+            margin-bottom: 5pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TOC8 {
+            margin-left: 77pt;
+            margin-bottom: 5pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TOC9 {
+            margin-left: 88pt;
+            margin-bottom: 5pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TOCHeading {
+            margin-top: 20pt;
+            margin-bottom: 10pt;
+            page-break-inside: avoid;
+            page-break-after: avoid;
+            font-family: Georgia;
+            font-size: 14pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #262626
+        }
+
+        .TableofAuthorities {
+            margin-left: 11pt;
+            text-indent: -11pt;
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .TableofFigures {
+            font-size: 11pt;
+            color: #595959
+        }
+
+        .Title {
+            text-align: center;
+            font-family: Georgia;
+            font-size: 35pt;
+            text-transform: uppercase;
+            color: #595959
+        }
+
+        span.BalloonTextChar {
+            font-family: 'Segoe UI'
+        }
+
+        span.BookTitle {
+            font-weight: bold;
+            font-style: italic;
+            letter-spacing: 0pt
+        }
+
+        span.CommentReference {
+            font-size: 11pt
+        }
+
+        span.CommentSubjectChar {
+            font-weight: bold
+        }
+
+        span.DocumentMapChar {
+            font-family: 'Segoe UI'
+        }
+
+        span.EndnoteReference {
+            vertical-align: super
+        }
+
+        span.FollowedHyperlink {
+            text-decoration: underline;
+            color: #bf4a27
+        }
+
+        span.FootnoteReference {
+            vertical-align: super
+        }
+
+        span.HTMLAddressChar {
+            font-style: italic
+        }
+
+        span.HTMLCite {
+            font-style: italic
+        }
+
+        span.HTMLCode {
+            font-family: Consolas;
+            font-size: 11pt
+        }
+
+        span.HTMLDefinition {
+            font-style: italic
+        }
+
+        span.HTMLKeyboard {
+            font-family: Consolas;
+            font-size: 11pt
+        }
+
+        span.HTMLPreformattedChar {
+            font-family: Consolas
+        }
+
+        span.HTMLSample {
+            font-family: Consolas;
+            font-size: 12pt
+        }
+
+        span.HTMLTypewriter {
+            font-family: Consolas;
+            font-size: 11pt
+        }
+
+        span.HTMLVariable {
+            font-style: italic
+        }
+
+        span.Heading1Char {
+            font-family: Georgia;
+            font-size: 14pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #262626
+        }
+
+        span.Heading2Char {
+            font-size: 13pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #1d824c
+        }
+
+        span.Heading3Char {
+            font-weight: bold;
+            text-transform: uppercase
+        }
+
+        span.Heading4Char {
+            font-family: Georgia;
+            font-style: italic;
+            color: #156138
+        }
+
+        span.Heading5Char {
+            font-family: Georgia;
+            color: #156138
+        }
+
+        span.Heading6Char {
+            font-family: Georgia;
+            color: #0e4025
+        }
+
+        span.Heading7Char {
+            font-family: Georgia;
+            font-style: italic;
+            color: #0e4025
+        }
+
+        span.Heading8Char {
+            font-family: Georgia;
+            font-weight: bold;
+            color: #000000
+        }
+
+        span.Heading9Char {
+            font-family: Georgia;
+            font-weight: bold;
+            font-style: italic;
+            color: #000000
+        }
+
+        span.Hyperlink {
+            text-decoration: underline;
+            color: #2c5c85
+        }
+
+        span.IntenseEmphasis {
+            font-weight: bold;
+            color: #262626
+        }
+
+        span.IntenseQuoteChar {
+            font-style: italic;
+            color: #1d824c
+        }
+
+        span.MacroTextChar {
+            font-family: Consolas;
+            font-weight: bold;
+            color: #0e4125
+        }
+
+        span.MessageHeaderChar {
+            font-family: Georgia;
+            font-size: 12pt;
+            background-color: #cccccc
+        }
+
+        span.PlaceholderText {
+            color: #595959
+        }
+
+        span.PlainTextChar {
+            font-family: Consolas
+        }
+
+        span.QuoteChar {
+            font-style: italic;
+            color: #404040
+        }
+
+        span.SubtitleChar {
+            color: #5a5a5a
+        }
+
+        span.SubtleEmphasis {
+            font-style: italic;
+            color: #404040
+        }
+
+        span.SubtleReference {
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: none;
+            color: #595959
+        }
+
+        span.TitleChar {
+            font-family: Georgia;
+            font-size: 35pt;
+            text-transform: uppercase
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 76%; border-collapse: collapse; margin-right: calc(14%); margin-left: calc(10%);">
+        <tbody>
+            <tr style="height:90pt;">
+                <td style="width:468pt; vertical-align:top;">
+                    <p class="Title"><img
+                            src="/home/edigital/sd_projects/graday/backend/graday_backend/staticfiles/assets/images/profiles/graday_logo.png"
+                            style="width: 500px;"></p>
+                    <p class="Title"><br></p>
+                    <p class="Title"><span style="font-size: 30px;">votre R&eacute;sultat</span>&nbsp;</p>
+                    <hr>
+                    <p><br></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:468pt; padding-top:21.6pt; padding-bottom:5.75pt; vertical-align:top;">
+                    <div style="text-align: center;">&nbsp;<span style="font-size: 20px;">&nbsp;Bonjour NOM ** PRENOM !
+                            Nous esp&eacute;rons *** tu as appr&eacute;ci&eacute; passer ces tests et questionnaires
+                            avec nous.</span></div>
+                    <div style="text-align: center;"><span style="font-size: 20px;">&nbsp; &nbsp; &nbsp; Nous avons
+                            recueilli soigneusement ****** *** informations que ** **** as confi&eacute;** et je *** **
+                            assembl&eacute;** ici: &nbsp;&nbsp;</span></div>
+                    <div class="yj6qo" style="text-align: justify;"><br></div>
+                    <hr>
+                    <p><br></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h1>
+    <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Profil ** personnalit&eacute;</h1>
+    <p><br></p>
+    <table style="width: 86%; margin-left: calc(6%); border-collapse: collapse; margin-right: calc(8%);">
+        <tbody>
+            <tr>
+                <td style="width: 11.2674%;">
+                    <div style="text-align: center;"><span
+                            style='color: rgb(34, 43, 69); font-family: "Open Sans", sans-serif; font-size: 19px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important; background-color: rgb(84, 172, 210);'>Inv&eacute;stigateur
+                            80%</span></div>
+                    <p><br></p>
+                </td>
+                <td
+                    style="width: 88.6091%; border-left: 2.25pt dotted rgb(191, 191, 191); padding-left: 27.68pt; vertical-align: top; text-align: center;">
+                    <div class="row"
+                        style="box-sizing: inherit; display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px;">
+                        <div class="row"
+                            style="box-sizing: inherit; display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; padding: 25px; text-align: left;">
+                            <span style="font-size: 19px;">Un type ** telle personnalit&eacute; a tendance &agrave;
+                                &ecirc;tre analytique, intellectuel ** savant. *** aiment la recherche, les
+                                activit&eacute;s math&eacute;matiques ou scientifiques. *** individus vivent **** leur
+                                esprit et pr&eacute;f&egrave;rent traiter le monde r&eacute;el &agrave; distance. Ils
+                                aiment lire, &eacute;tudier, et r&eacute;soudre les probl&egrave;mes. Ces personnes sont
+                                des ******** non conventionnels et ind&eacute;pendants, curieux et tr&egrave;s
+                                perspicaces.</span></div>
+                    </div>
+                    <hr>
+                    <p><br></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 11.2674%;">
+                    <div style="text-align: center;"><span
+                            style='color: rgb(34, 43, 69); font-family: "Open Sans", sans-serif; font-size: 19px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(84, 172, 210); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;'>Entreprenant
+                            73%</span></div>
+                </td>
+                <td
+                    style="width: 88.6091%; border-left: 2.25pt dotted rgb(191, 191, 191); padding-left: 27.68pt; vertical-align: top;">
+                    <div class="row"
+                        style="box-sizing: inherit; display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px;">
+                        <div class="row"
+                            style="box-sizing: inherit; display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; padding: 25px;">
+                            <span style="font-size: 19px;">Les personnes ** ce **** sont en mesure d&apos;exploiter leur
+                                connaissances pour cr&eacute;er de ********* opportunit&eacute;s. &Ecirc;tre
+                                entreprenant **** signifier partager ********* des id&eacute;es et
+                                c&eacute;l&eacute;**** les soi-disant &eacute;checs comme des exp&eacute;riences
+                                d&apos;apprentissage et de croissance, ces individus aiment influencer leur entourage et
+                                **** preuve d&apos;efficacit&eacute; en supportant ** plupart des ******* et
+                                b&eacute;n&eacute;ficiant ** la plupart des r&eacute;compenses. L&apos;************ est
+                                g&eacute;n&eacute;ralement consid&eacute;r&eacute; comme un innovateur, une source de
+                                nouvelles id&eacute;es, biens, services et activit&eacute;s ** proc&eacute;dures.</span>
+                        </div>
+                    </div>
+                    <hr><span style="font-size: 19px;"><br></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 11.2674%;">
+                    <div style="text-align: center;"><span style="font-size: 19px;"><span
+                                style='color: rgb(34, 43, 69); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(84, 172, 210); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;'>Social
+                                72%</span></span></div>
+                </td>
+                <td
+                    style="width: 88.6091%; border-left: 2.25pt dotted rgb(191, 191, 191); padding-left: 27.68pt; vertical-align: top;">
+                    <div class="row"
+                        style="box-sizing: inherit; display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px;">
+                        <div class="row"
+                            style="box-sizing: inherit; display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; padding: 25px;">
+                            <span style="font-size: 19px;">Ces ********* ****** particuli&egrave;rement informer, aider,
+                                former, et soigner les gens dans leur travail. Leur empathie et leur sensibilit&eacute;
+                                aux signaux &eacute;motionnels les ****** &agrave; r&eacute;soudre les probl&egrave;mes
+                                des gens, parfois avant que les autres ne s&apos;en rendent compte. Ces individus
+                                ******* rassembler les **** ** g&eacute;n&eacute;*** de l&apos;&eacute;nergie positive
+                                **** une bonne cause. Solidaires, humanistes d&eacute;vou&eacute;s. ***** conditions de
+                                travail id&eacute;ales sont avec d&apos;autres ********* qui sont &eacute;galement
+                                dignes de confiance et utiles, ** montrent leur appr&eacute;ciation.</span></div>
+                        <p><br></p>
+                    </div>
+                    <hr><span style="font-size: 19px;"><br></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 11.2674%;">
+                    <div style="text-align: center;"><span style="font-size: 19px;"><span
+                                style='color: rgb(34, 43, 69); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(247, 249, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;'>Creatif
+                                70%</span></span></div>
+                </td>
+                <td
+                    style="width: 88.6091%; border-left: 2.25pt dotted rgb(191, 191, 191); padding-left: 27.68pt; vertical-align: top;">
+                    <div class="row"
+                        style="box-sizing: inherit; display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px;">
+                        <div class="row"
+                            style="box-sizing: inherit; display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; padding: 25px;">
+                            <span style="font-size: 19px;">Les cr&eacute;***** aiment r&ecirc;ver et imaginer les
+                                possibilit&eacute;s. Ils peuvent se ******* **** l&apos;imagination et la fantaisie,
+                                tout ** restant suffisamment ancr&eacute;s pour transformer leurs r&ecirc;ves **
+                                r&eacute;alit&eacute;. Ces individus montrent beaucoup de curiosit&eacute; pour les
+                                ******** *********** (musique, art ** design, the&acirc;tre..) et ****** *********** des
+                                ********* *** tout et n&apos;importe quoi; peuvent avoir des int&eacute;r&ecirc;ts
+                                g&eacute;n&eacute;raux dans de nombreux domaines ind&eacute;pendants. Ils ont la
+                                capacit&eacute; de g&eacute;n&eacute;rer ** grand nombre d&apos;id&eacute;es ou **
+                                solutions aux probl&egrave;*** et *** questions; offrent souvent des r&eacute;ponses
+                                inhabituelles, uniques et intelligentes.</span></div>
+                    </div>
+                    <hr><span style="font-size: 19px;"><br></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 11.2674%;">
+                    <div style="text-align: center;"><span style="font-size: 19px;"><span
+                                style='color: rgb(34, 43, 69); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(247, 249, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;'>M&eacute;********
+                                65%</span></span></div>
+                </td>
+                <td
+                    style="width: 88.6091%; border-left: 2.25pt dotted rgb(191, 191, 191); padding-left: 27.68pt; vertical-align: top;">
+                    <h3
+                        style="margin: 10px 0px; font-size: 11pt; font-weight: bold; text-transform: uppercase; color: rgb(89, 89, 89); font-family: Calibri; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+                        <span style="font-size: 19px;"><span
+                                style='color: rgb(34, 43, 69); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;'>Une
+                                personne qui ******* une tr&egrave;s grande attention *** d&eacute;tails ** qui fait les
+                                choses de mani&egrave;re pr&eacute;cise ou ** suivant une proc&eacute;dure. Une personne
+                                d&eacute;crite comme m&eacute;thodique pr&eacute;f&egrave;re travailler dans un
+                                environnement bien organis&eacute; ** observe attentivement toutes les directions et les
+                                suit exactement.</span></span></h3>
+                    <p
+                        style="margin-top: 0pt; margin-right: 0pt; margin-bottom: 10px !important; margin-left: 0pt; color: rgb(0, 0, 0); font-family: Calibri; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+                        <span style="font-size: 19px;"><br></span></p>
+                    <hr><span style="font-size: 19px;"><br></span>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 11.2674%;">
+                    <div style="text-align: center;"><span style="font-size: 19px;"><span
+                                style='color: rgb(34, 43, 69); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 600; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(247, 249, 252); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;'>Pratique
+                                62%</span></span></div>
+                </td>
+                <td
+                    style="width: 88.6091%; border-left: 2.25pt dotted rgb(191, 191, 191); padding-top: 10.8pt; padding-left: 27.68pt; vertical-align: top;">
+                    <h3><span style="font-size: 19px;"><span
+                                style='color: rgb(34, 43, 69); font-family: "Open Sans", sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;'>Une
+                                ******** pratique se concentre *** la r&eacute;alisation d&apos;actions
+                                concr&egrave;tes, et elle a tendance &agrave; atteindre des objectifs clairement ******
+                                avec un ************ plus ou moins imm&eacute;diat. **** pr&eacute;f&egrave;re exercer
+                                leur m&eacute;tier sur le terrain plut&ocirc;t que dans le bureau.</span></span></h3>
+                    <p><br></p>
+                    <hr>
+                    <p><br></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h1>
+    <hr>
+    <p><br></p>
+    <h1>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;***** Bilan d&eacute;taill&eacute; *** secteur
+        d&apos;activit&eacute;</h1>
+    <p><br></p>
+    <table style="width: 81%; border-collapse: collapse; margin-left: calc(8%); margin-right: calc(11%);">
+        <tbody>
+            <tr>
+                <td style="width: 33.351%; vertical-align: top;">
+                    <ul style="list-style-type: circle;">
+                        <li><span
+                                style='font-family: "Comic Sans MS", sans-serif; font-size: 18px; background-color: rgb(84, 172, 210);'><em>********
+                                    30%</em></span></li>
+                        <li><em><span style="font-size: 18px;"><span
+                                        style='font-family: "Comic Sans MS", sans-serif; background-color: rgb(84, 172, 210);'>Enseignement-Formation
+                                        &nbsp;</span><span
+                                        style='color: rgb(0, 0, 0); font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; font-family: "Comic Sans MS", sans-serif; background-color: rgb(84, 172, 210); display: inline !important;'>30%</span></span></em>
+                        </li>
+                        <li><em><span style="font-size: 18px;"><span
+                                        style='font-family: "Comic Sans MS", sans-serif; background-color: rgb(84, 172, 210);'>M&eacute;tiers
+                                        ******* ou techniques&nbsp;</span><span
+                                        style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;font-family: "Comic Sans MS", sans-serif; background-color: rgb(84, 172, 210);'>30%</span></span></em>
+                        </li>
+                        <li><em><span style="font-size: 18px;"><span
+                                        style="font-family: Comic Sans MS, sans-serif;">Industrie - Transport <span
+                                            style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>30%</span></span></span></em>
+                        </li>
+                        <li><span style='font-family: "Comic Sans MS", sans-serif; font-size: 18px;'><em>Medcine -
+                                    Sant&eacute;&nbsp;</em><span
+                                    style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'><em>30%</em></span></span>
+                        </li>
+                    </ul>
+                </td>
+                <td style="width: 33.2802%; padding-left: 18pt; vertical-align: top;">
+                    <div class="ng-star-inserted"
+                        style='box-sizing: inherit; color: rgb(34, 43, 69); font-family: "Open Sans", sans-serif; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;'>
+                        <ul style="list-style-type: circle;">
+                            <li>
+                                <div class="col-md-auto"
+                                    style="box-sizing: inherit; position: relative; width: auto; padding-right: 15px; padding-left: 15px; flex: 0 0 auto; max-width: 100%;">
+                                    <span style='font-family: "Comic Sans MS", sans-serif; font-size: 18px;'><em>Vente -
+                                            Communication - Publicit&eacute; &nbsp;<span
+                                                style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>30%</span></em></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-auto"
+                                    style="box-sizing: inherit; position: relative; width: auto; padding-right: 15px; padding-left: 15px; flex: 0 0 auto; max-width: 100%;">
+                                    <em><span style="font-size: 18px;"><span
+                                                style="font-family: Comic Sans MS, sans-serif;">******** &agrave; la
+                                                personne et *** *********** &nbsp;<span
+                                                    style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>30%</span><br></span></span></em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-auto"
+                                    style="box-sizing: inherit; position: relative; width: auto; padding-right: 15px; padding-left: 15px; flex: 0 0 auto; max-width: 100%;">
+                                    <em><span style="font-size: 18px;"><span
+                                                style="font-family: Comic Sans MS, sans-serif;">Sciences-Technologie-************
+                                                &nbsp;<span
+                                                    style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>30%</span></span></span></em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-auto"
+                                    style="box-sizing: inherit; position: relative; width: auto; padding-right: 15px; padding-left: 15px; flex: 0 0 auto; max-width: 100%;">
+                                    <em><span style="font-size: 18px;"><span
+                                                style="font-family: Comic Sans MS, sans-serif;">Sports - Loisirs
+                                                &nbsp;<span
+                                                    style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>30%</span></span></span></em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-auto"
+                                    style="box-sizing: inherit; position: relative; width: auto; padding-right: 15px; padding-left: 15px; flex: 0 0 auto; max-width: 100%;">
+                                    <span style='font-family: "Comic Sans MS", sans-serif; font-size: 18px;'><em>M&eacute;tiers
+                                            ** plein *** &nbsp;</em><span
+                                            style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'><em>30%</em></span></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </td>
+                <td style="width: 33.3333%;">
+                    <ul style="list-style-type: circle;">
+                        <li><span style='font-family: "Comic Sans MS", sans-serif; font-size: 18px;'><em>Gestion -
+                                    Administration - Finances &nbsp;<span
+                                        style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>30%</span>&nbsp;</em></span>
+                        </li>
+                        <li><em><span style="font-size: 18px;"><span
+                                        style="font-family: Comic Sans MS, sans-serif;">******* - Police - Arm&eacute;e
+                                        <span
+                                            style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>30%</span></span></span></em>
+                        </li>
+                        <li><em><span style="font-size: 18px;"><span
+                                        style="font-family: Comic Sans MS, sans-serif;">****** - Social - ****** <span
+                                            style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>30%</span></span></span></em>
+                        </li>
+                        <li><span style="font-size: 18px;"><span
+                                    style="font-family: Comic Sans MS, sans-serif;"><em>Arts - Culture
+                                        -Spectacles&nbsp;</em><span
+                                        style='color: rgb(0, 0, 0); font-family: "Comic Sans MS", sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'><em>30%</em></span></span></span>
+                        </li>
+                    </ul>
+                    <p><br></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p class="ContactInfo"><br></p>
+    <p class="ContactInfo" style="text-align: center;"><br></p>
+    <p class="ContactInfo" style="text-align: center;">10-06-2021</p>
+    <p style="text-align: center;">&nbsp; &nbsp;Graday.com &copy; &nbsp;**** droits r&eacute;serv&eacute;s&nbsp;</p>
+    <div class="item col-12 col-lg-4 p-3 mb-4">
+        <div class="item-inner theme-bg-light rounded p-4">
+            <blockquote class="quote">&quot;Excellent Book! Add your book review here *********** adipiscing elit.
+                Aliquam euismod nunc ***** urna facilisis tempor. &quot;</blockquote>
+            <!--//item-->
+            <div class="source media flex-column flex-md-row align-items-center"><img class="source-profile mr-md-3"
+                    src="assets/images/profiles/profile-1.png" alt="image">
+                <div class="source-info media-body text-center text-md-left">
+                    <div class="source-name">James Doe</div>
+                    <div class="soure-title">Co-Founder, Startup Week</div>
+                </div>
+            </div>
+            <!--//source-->
+            <div class="icon-holder"><br></div>
+        </div>
+        <!--//inner-->
+    </div>
+    <!--//item-->
+</body>
+
+</html>

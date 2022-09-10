@@ -1,0 +1,24 @@
+from django.core.management.base import BaseCommand
+from membre.models import User
+from farasha_followup.constants import USERS
+
+
+class Command(BaseCommand):
+
+    def handle(self, *args, **options):
+
+        for usr in USERS :
+            username = usr["username"]
+            email = usr["email"]
+            password = usr["password"]
+
+            users = User.objects.filter(username = username, email = email ).first()
+            if users:
+                print('user with  id: {0} username:{1}, email:{2},is already in the database'.format(users.pk,users.username,users.email))
+            else:
+                u = User.objects.create_user(username=username, email=email, password=password)
+                print('user {0} with email {1} has been created'.format(username, email))
+
+
+
+
